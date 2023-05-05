@@ -105,7 +105,7 @@ ensured that we didn't alter them in unwanted or unexpected ways.
 
 Using Amazon SageMaker, we performed Machine learning and analytics for predicting the results. We used different types of bar charts, pie plots, line graphs and heat maps to view the results. The dataset was train and tested with random forest and CatBoost algorithms. At first, we calculated the study duration for each patient, converted allergy data type to floats and calculated deltas for treatment data per allergy. These gave the best results to get final prediction.
 
-(click Here to view the results){Project/childhood-allergy-prevalence-and-treatment-deltas .ipynb}
+[click Here to view the results](Project/childhood-allergy-prevalence-and-treatment-deltas .ipynb)
 
 
 ## Evaluation and Optimization
