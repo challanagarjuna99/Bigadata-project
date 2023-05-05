@@ -103,14 +103,16 @@ ensured that we didn't alter them in unwanted or unexpected ways.
 # Deliverable - 3
 ## Analytics, Machine Learning
 
-Using Amazon SageMaker, we performed Machine learning and analytics for predicting the results. We used different types of bar charts, pie plots, line graphs and heat maps to view the results. The dataset was train and tested with random forest and CatBoost algorithms. At first, we calculated the study duration for each patient, converted allergy data type to floats and calculated deltas for treatment data per allergy. These gave the best results to get final prediction.
+Using Amazon SageMaker, we performed Machine learning and analytics for predicting the results. We used different types of bar charts, pie plots, line graphs and heat maps to view the results. One analysis we used is clustering techniques such as k-means or hierarchical clustering to group individuals based on their symptoms, diagnosis, and treatment options.s. This helped us identify patterns of allergy symptoms and treatments that are more common in certain regions or demographic groups.
 
 [Click here to view the results](https://github.com/challanagarjuna99/Bigadata-project/blob/main/Project/childhood-allergy-prevalence-and-treatment-deltas%20.ipynb)
 
 
 ## Evaluation and Optimization
 
-Performing machine learning on AWS will boosts the running computations. The machine learning model like Random forest which helps to find the predicted median value in the data, along with random forest we used Cat boost which adds best solutions with out parameter tuning that reduces time spent on parameter tuning because CatBoost provides effective results with default parameters. Using Scatter plot for visualizing the predicted values, based on the positive correlations of the plot helps the data scientist to analyse the stats for better understanding. By optimizing the models for the best fit, a scatter chat can help in setting up models.
+To evaluate the performance of a machine learning model on this dataset, we used metrics such as accuracy, precision, recall, and F1-score. Since the dataset is relatively balanced with approximately equal numbers of positive and negative cases, accuracy is  an appropriate metric to evaluate the model's overall performance.Performing machine learning on AWS will boosts the running computations. Using Scatter plot for visualizing the predicted values, based on the positive correlations of the plot helps the data scientist to analyse the stats for better understanding. 
+
+By optimizing the models for the best fit, a scatter chat can help in setting up models. In optimizing for a specific metric such as minimizing false negatives, then recall would be more appropriate. One approach to optimize the model's performance is to use feature selection to identify the most relevant features for predicting allergies. We used techniques such as correlation analysis, mutual information, or recursive feature elimination to identify the most informative features. By removing irrelevant or redundant features, we can simplify the model and potentially improve its performance.
 
 ## Results
 
